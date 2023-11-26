@@ -2505,6 +2505,7 @@
       <static>0</static>
       <allow_auto_disable>1</allow_auto_disable>
       <pose frame=''>0.058671 0.162634 0 0 -0 0</pose>
+      <plugin name="model_push" filename="libmodel_push.so"/>
     </model>
   </world>
 </sdf>

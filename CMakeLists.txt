@@ -6,4 +6,5 @@ link_directories(${GAZEBO_LIBRARY_DIRS})
 list(APPEND CMAKE_CXX_FLAGS "${GAZEBO_CXX_FLAGS}")
 
 add_library(hello SHARED script/hello.cpp)
+add_library(model_push SHARED script/model_push.cpp)
 target_link_libraries(hello ${GAZEBO_LIBRARIES})
