@@ -1720,6 +1720,7 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>-2.36752 -5.46572 0 0 -0 0</pose>
+      <plugin name='model_push' filename='libmodel_push.so'/>
     </model>
     <model name='robot'>
       <link name='link_0'>
